@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "smutil"
+version = "0.0.1"
+authors = ["Johannes Hecher"]
+description = "Utility functions for SageMaker channel inputs"
+
+[tool.poetry.dependencies]
+python = "^3.8.1"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+black = "^23.1.0"
+flake8 = "^6.0.0"
+pre-commit = "^3.1.1"
+
+
+[build-system]
+requires = ["setuptools", "poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
